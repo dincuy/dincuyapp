@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0", env('ALLOWED_HOST'),,, "*.a.run.app"]
+ALLOWED_HOSTS = ["0.0.0.0", env('ALLOWED_HOST'), "*.a.run.app"]
 
 
 # Application definition
